@@ -1,0 +1,1 @@
+export type CheckOptional<TObject, K extends keyof TObject> = {} extends Pick<TObject, K> ? true : false
